@@ -1,0 +1,74 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url("https://i.pinimg.com/originals/bd/51/b2/bd51b2e359380fe979aa108921a84c82.jpg") no-repeat;
+    background-size: cover;
+}
+
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    padding: 40px 50px;
+}
+
+.login-box h1 {
+    text-align: left;
+    font-size: 40px;
+    border-bottom: 6px solid rgb(132, 98, 197);
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid rgb(132, 98, 197);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+} 
+
+.button {
+    background: none;
+    width: 100%;
+    border: 2px solid rgb(132, 98, 197);
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:rgb(132, 98, 197);
+    color: white;
+    border: 2px solid white;
+}
