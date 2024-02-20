@@ -1,7 +1,13 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-body {
+
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: url("https://i.pinimg.com/originals/bd/51/b2/bd51b2e359380fe979aa108921a84c82.jpg") no-repeat;
     background-size: cover;
