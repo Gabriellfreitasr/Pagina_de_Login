@@ -11,6 +11,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: url("https://i.pinimg.com/originals/bd/51/b2/bd51b2e359380fe979aa108921a84c82.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .login-box {
